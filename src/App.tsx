@@ -107,11 +107,11 @@ const App = () => {
 
   useEffect(() => {
     if (expanded === "dk64" || expanded === "dk64ce") {
-      setCollectibleImg("public/img/gb.png");
+      setCollectibleImg("/img/gb.png");
     } else if (expanded === "dkb" || expanded === "dkbce") {
-      setCollectibleImg("public/img/3nan.png");
+      setCollectibleImg("/img/3nan.png");
     } else if (expanded === "yr") {
-      setCollectibleImg("public/img/pagie.png");
+      setCollectibleImg("/img/pagie.png");
     }
   }, [expanded]);
 
