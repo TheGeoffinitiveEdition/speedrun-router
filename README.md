@@ -1,6 +1,6 @@
 # Speedrun Router
 
-A simple app that allows for selection of speedrun routes that I use or am interested in using.
+A simple app that allows for selection of speedrun routes that I use or am interested in using. Hosted at https://geoffhuntsgood.com/speedrun-router.
 
 Each route links to its respective documentation (or, in some cases, the route video).
 
