@@ -15,8 +15,8 @@ export const dk64Colors = {
 
 export const dkbColors = {
   header: "#d3d3d3",
-  nan: "#c6eb34",
-  three: "#ebde34",
+  nan: "#ebde34",
+  three: "#ebc034",
   five: "#ed4c17"
 };
 

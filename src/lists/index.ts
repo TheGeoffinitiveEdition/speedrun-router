@@ -31,7 +31,11 @@ export const allDK64CERoutes: Route[] = [
   dk64ce.dk64GlitchlessAllCollectables
 ];
 
-export const allDKBRoutes: Route[] = [dkb.dkbAny];
+export const allDKBRoutes: Route[] = [
+  dkb.dkbAny,
+  dkb.dkbABAB,
+  dkb.dkbTrueEnding
+];
 
 export const allDKBCERoutes: Route[] = [dkbce.dkbceTrans];
 
