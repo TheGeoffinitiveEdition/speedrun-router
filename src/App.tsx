@@ -122,10 +122,12 @@ const App = () => {
     if (rightPressed && currHeaderIndex < headers.length) {
       setCurrHeaderIndex(currHeaderIndex + 1);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [leftPressed, rightPressed]);
 
   useEffect(() => {
     document.getElementById(headers[currHeaderIndex])?.scrollIntoView();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currHeaderIndex]);
 
   return (

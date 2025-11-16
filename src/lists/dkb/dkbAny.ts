@@ -2,7 +2,7 @@ import type { Route } from "../../classes/Route";
 import { dkbColors, titleColors } from "../../utils/colors";
 
 export const dkbAny: Route = {
-  title: "Bananza Any% (Snakeless)",
+  title: "Any% (Snakeless)",
   headerColor: titleColors.dkb,
   doc: "https://www.youtube.com/watch?v=6nn5E3orTPI",
   steps: [
