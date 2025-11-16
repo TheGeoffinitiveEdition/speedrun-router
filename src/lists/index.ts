@@ -21,9 +21,13 @@ export const allDK64Routes: Route[] = [
 ];
 
 export const allDK64CERoutes: Route[] = [
+  dk64ce.dk64AnyNoISG,
+  dk64ce.dk64AnyAllKeys,
+  dk64ce.dk64100GBMoveless,
+  dk64ce.dk64TANLE,
+  dk64ce.dk64TA101,
   dk64ce.dk64GlitchlessAny,
   dk64ce.dk64Glitchless101,
-  dk64ce.dk64100GBMoveless,
   dk64ce.dk64GlitchlessAllCollectables
 ];
 
