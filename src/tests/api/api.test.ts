@@ -18,7 +18,7 @@ describe("api.ts tests", () => {
     });
 
     test("dkb", () => {
-      expect(getRouteByTitle("dkb", "Any% (Snakeless)").steps).toHaveLength(163);
+      expect(getRouteByTitle("dkb", "Any% (Snakeless)").steps).toHaveLength(164);
     });
 
     test("dkbce", () => {
