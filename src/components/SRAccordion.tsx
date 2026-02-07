@@ -45,7 +45,7 @@ export const SRAccordion = ({
         <Grid container spacing={1} maxHeight="300px">
           {routeSet.map((r: Route) => (
             <Fragment key={r.title}>
-              <Grid size={8}>
+              <Grid size={7}>
                 <SRButton
                   label={r.title}
                   handleClick={setTitle}

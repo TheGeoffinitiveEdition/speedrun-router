@@ -25,6 +25,7 @@ export const theme = createTheme({
       styleOverrides: {
         root: {
           backgroundColor: background,
+          overflowX: "hidden",
           overflowY: "auto"
         }
       }
@@ -62,8 +63,8 @@ export const theme = createTheme({
     MuiGrid: {
       styleOverrides: {
         container: {
-          width: "90vw",
-          height: "85vh",
+          width: "99vw",
+          height: "95vh",
           overflowX: "hidden",
           overflowY: "auto",
           margin: "0 auto"
